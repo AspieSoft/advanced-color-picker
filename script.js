@@ -123,6 +123,9 @@
       }
     }
 
+    gradientDirSel.style['left'] = '';
+    gradientDirSel.style['top'] = '';
+
     advancedColorPicker.style['display'] = '';
     editElm = null;
   });
@@ -298,6 +301,11 @@
 
       if(strVal.match(/^[\w_-]+-gradient\s*\(/)){
         gradientDir.style.setProperty('--color-gradient', strVal);
+        if(gradientData.dir){
+          gradientDir.style.setProperty('--color-gradient-dir', gradientData.dir.replace('deg', ''));
+        }else{
+          gradientDir.style.setProperty('--color-gradient-dir', '180');
+        }
         gradientDir.parentNode.style['display'] = 'flex';
       }else{
         gradientDir.parentNode.style['display'] = 'none';

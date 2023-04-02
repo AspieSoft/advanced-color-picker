@@ -10,8 +10,8 @@ A replacement for the browser default html color picker, that also supports alph
 ## Installation
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AspieSoft/advanced-color-picker@1.0.0/style.min.css"/>
-<script src="https://cdn.jsdelivr.net/gh/AspieSoft/advanced-color-picker@1.0.0/script.min.js" defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AspieSoft/advanced-color-picker@1.0.1/style.min.css"/>
+<script src="https://cdn.jsdelivr.net/gh/AspieSoft/advanced-color-picker@1.0.1/script.min.js" defer></script>
 ```
 
 ## Usage
@@ -25,5 +25,39 @@ A replacement for the browser default html color picker, that also supports alph
 
 <!-- disable alpha picker -->
 <input type="color" no-alpha/>
+
+```
+
+## Styling
+
+```css
+
+#advanced-color-picker {
+  --text-dark: #0f0f0f;
+  --text-light: #ffffff;
+  --text-fb: #9b9b9b;
+
+  --bg: #ffffff;
+  --bg-text: #0f0f0f;
+  --bg-shadow: #ffffff;
+
+  --shadow: 0 0 5px;
+  --text-shadow: 2px 2px 5px;
+  --no-color: repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px;
+
+  --scrollbar: rgba(135, 135, 135, 0.75);
+  --scrollbar-hover: rgba(155, 155, 155, 0.75);
+  --scrollbar-track: rgba(75, 75, 75, 0.25);
+}
+
+input[type="color"] {
+  --bg-text: #0f0f0f;
+  --text-dark: #0f0f0f;
+  --text-light: #ffffff;
+
+  --shadow: 0 0 5px;
+  --text-shadow: 2px 2px 5px;
+  --no-color: repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px;
+}
 
 ```
