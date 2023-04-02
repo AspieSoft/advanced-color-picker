@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"/>
+  <meta name="description" content="This is a test"/>
+  <title>Test</title>
+
+  <style>
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      width: 100vw;
+      height: 50vh;
+
+      font-size: 1.1rem;
+    }
+
+    input {
+      font-size: 1.1rem;
+    }
+  </style>
+
+  <link rel="stylesheet" href="/advanced-color-picker.css"/>
+  <script src="/advanced-color-picker.js" defer></script>
+</head>
+<body>
+  <main>
+    <input type="color" value="linear-gradient(150deg, #ff0000, #004cff)"/>
+    <input type="color" no-gradient no-alpha/>
+  </main>
+</body>
+</html>
