@@ -4,7 +4,7 @@
 
 [![donation link](https://img.shields.io/badge/buy%20me%20a%20coffee-paypal-blue)](https://paypal.me/shaynejrtaylor?country.x=US&locale.x=en_US)
 
-A replacement for the browser default html color picker, that also supports alpha and gradient options.
+A drop in replacement for the browser default html color picker, that also supports alpha and gradient options.
 
 ## Installation
 
