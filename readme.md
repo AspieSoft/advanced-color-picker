@@ -1,7 +1,6 @@
 # Advanced Color Picker
 
-![npm weekly downloads](https://img.shields.io/npm/dw/installName)
-![npm monthly downloads](https://img.shields.io/npm/dm/installName)
+![jsDelivr monthly hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/AspieSoft/advanced-color-picker)
 
 [![donation link](https://img.shields.io/badge/buy%20me%20a%20coffee-paypal-blue)](https://paypal.me/shaynejrtaylor?country.x=US&locale.x=en_US)
 
